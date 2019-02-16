@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
+import ButtonExample from './components/ButtonExample';
+
 class App extends Component {
 
   render() {
     return (
       <div>
-        <p>It works!</p>
+        <table>
+          <tr>
+            <td><ButtonExample /></td>
+          </tr>
+        </table>
       </div>
     );
   }
